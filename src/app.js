@@ -12,8 +12,17 @@ var chocolates = [
 ];
 
 //Progression 1: Add ___ chocolates of ____ color
-
-
+function addChocolates(color , count)
+{
+    
+let chocolate = chocolates.unshift("green","green","red","red");
+if(chocolate.length>0){
+return chocolate;
+}
+else{
+    return color;
+}
+}
 //Progression 2: Remove ___ chocolates from the top the dispenser
 
 
